@@ -241,9 +241,6 @@ for r in resultado:
 
 ![Resultados](evidencias/Prueba_3.png)
 
-## Detección final
-
-![Detección](evidencias/Prueba_1.mp4)
 
 # Caso de Estudio
 
