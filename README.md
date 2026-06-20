@@ -227,6 +227,20 @@ for r in resultado:
 
 ---
 
+# Evidencias del Proyecto
+
+## Entrenamiento del modelo
+
+![Dataset](evidencias/Evidencia.jpg)
+
+## Resultados obtenidos
+
+![Resultados](evidencias/Prueba 1.png)
+
+## Detección final
+
+(Pegar captura aquí)
+
 # Caso de Estudio
 
 Implementación de un Sistema de Visión Artificial para la Detección Automática de Teléfonos Celulares en Entornos Industriales utilizando YOLOv8
