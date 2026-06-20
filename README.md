@@ -235,11 +235,15 @@ for r in resultado:
 
 ## Resultados obtenidos
 
-![Resultados](evidencias/Prueba 1.png)
+![Resultados](evidencias/Prueba_1.png)
+
+![Resultados](evidencias/Prueba_2.png)
+
+![Resultados](evidencias/Prueba_3.png)
 
 ## Detección final
 
-(Pegar captura aquí)
+![Detección](evidencias/Prueba_1.mp4)
 
 # Caso de Estudio
 
