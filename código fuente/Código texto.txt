@@ -1,0 +1,44 @@
+!pip install ultralytics
+
+from ultralytics import YOLO
+from google.colab import files
+from PIL import Image
+import torch
+
+model = YOLO("yolov8n.pt")
+
+print("Modelo cargado correctamente")
+
+print(torch.cuda.is_available())
+
+uploaded = files.upload()
+
+!unzip "CelularesYOLO.v3i.yolov8.zip"
+
+!ls
+
+results = model.train(
+    data="/content/data.yaml",
+    epochs=30,
+    imgsz=640
+)
+
+!find /content -name "best.pt"
+
+modelo = YOLO(
+    "/content/runs/detect/train/weights/best.pt"
+)
+
+print("Modelo entrenado cargado")
+
+files.upload()
+
+resultado = modelo(
+    "/content/imagen_prueba.jpg"
+)
+
+for r in resultado:
+    imagen = Image.fromarray(
+        r.plot()[..., ::-1]
+    )
+    display(imagen)
