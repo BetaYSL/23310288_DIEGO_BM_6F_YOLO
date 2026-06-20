@@ -88,28 +88,6 @@ Interpretación:
 
 El modelo logró detectar teléfonos celulares con un nivel alto de precisión considerando el tamaño del conjunto de datos utilizado.
 
----
-
-# Estructura del Repositorio
-
-```plaintext
-ProyectoVisionArtificial/
-│
-├── notebook/
-│      EntrenamientoYOLO_DeteccionCelulares.ipynb
-│
-├── modelo/
-│      best.pt
-│
-├── evidencias/
-│      evidencia1.jpg
-│      evidencia2.jpg
-│      evidencia3.jpg
-│
-├── requirements.txt
-│
-└── README.md
-```
 
 ---
 
