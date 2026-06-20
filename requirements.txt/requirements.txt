@@ -1,3 +1,13 @@
+ultralytics==8.4.70
+torch==2.11.0
+torchvision
+torchaudio
+Pillow
+numpy
+opencv-python
+matplotlib
+PyYAML
+
 ultralytics → para entrenar y ejecutar YOLOv8 (esta sí es obligatoria).
 
 torch → motor de entrenamiento (PyTorch).
